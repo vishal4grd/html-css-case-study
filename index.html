@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <title>My First Webpage</title>
+  </head>
+  <body>
+    <header>
+      <h2 id="site-name"><img src="images//pratian-logo.png" /></h2>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="https://google.com" target="_blank">Google</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section>
+        <article id="article-1">
+          <p>
+            Lorem ipsum dolor imet coneds Lorem ipsum dolor imet conedsLorem
+            ipsum dolor imet conedsLorem ipsum dolor imet coneds Lorem ipsum
+            dolor imet conedsLorem ipsum dolor imet coneds
+          </p>
+          <p>
+            Lorem ipsum dolor imet coneds Lorem ipsum dolor imet conedsLorem
+            ipsumum dolor imet coneds
+          </p>
+        </article>
+      </section>
+      <aside class="aside-area">
+        <h3>This is aside</h3>
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+        </ul>
+      </aside>
+    </main>
+    <section id="table-section">
+      <section class="table-area" id="table-area-1">
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>BLR</td>
+          </tr>
+          <tr>
+            <td>Jane</td>
+            <td>NY</td>
+          </tr>
+          <tr>
+            <td>Kevin</td>
+            <td>BLR</td>
+          </tr>
+        </table>
+      </section>
+      <section class="table-area" id="table-area-2">
+        <table>
+          <tr>
+            <th>Name</th>
+            <th colspan="2">Phone Number</th>
+          </tr>
+          <tr>
+            <td>
+              John
+            </td>
+            <td>09786587</td>
+            <td>9787867</td>
+          </tr>
+        </table>
+      </section>
+      <section class="table-area" id="table-area-3">
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+          </tr>
+          <tr>
+            <td rowspan="2">John</td>
+            <td>BLR</td>
+          </tr>
+          <tr>
+            <td>NY</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+    <section id="form-section">
+      <h3>HTML User Registration Form</h3>
+      <form>
+        <div>
+          <label for="name" aria-label="Name of the user">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" required />
+        </div>
+        <div>
+          <label for="city">City:</label>
+          <select id="city">
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="hyd">Hyderabad</option>
+          </select>
+        </div>
+        <div>
+          <label for="useremail">Email:</label>
+          <input type="email" id="useremail" required />
+        </div>
+        <div>
+          <label for="birthdate">DoB:</label>
+          <input type="date" id="birthdate" required />
+        </div>
+        <input type="submit" value="Register" />
+        <input type="reset" value="Reset" />
+      </form>
+    </section>
+    <footer>
+      <p>Copyright 2020</p>
+    </footer>
+  </body>
+</html>

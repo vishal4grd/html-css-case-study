@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  position: relative;
+  height: 60px;
+  background-color: coral;
+}
+
+#site-name {
+  position: absolute;
+  margin: 0;
+  top: 0px;
+  left: 1rem;
+}
+
+#site-name img {
+  width: 130px;
+}
+
+nav ul {
+  list-style-type: none;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 15px;
+  position: relative;
+  top: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+  font-weight: 700;
+}
+
+#main {
+  position: relative;
+  height: 250px;
+  border: 5px solid red;
+}
+
+#article-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 70%;
+  height: 100%;
+  background-color: beige;
+  padding: 10px;
+}
+
+#article-1 p {
+  background-color: brown;
+  padding: 5px 10px; /*TopBottom RightLeft*/
+}
+
+.aside-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+  background-color: cadetblue;
+}
+
+#table-section {
+  position: relative;
+  height: 200px;
+}
+
+.table-area {
+  position: absolute;
+  width: 33.33%;
+  text-align: center;
+  height: 100%;
+  padding: 5px;
+}
+#table-area-1 {
+  background-color: aqua;
+}
+
+table,
+table td,
+table th {
+  border: 2px solid red;
+}
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: 900;
+}
+
+#table-area-2 {
+  left: 33.33%;
+}
+#table-area-3 {
+  right: 0;
+  background-color: chartreuse;
+}
+
+#form-section {
+  padding: 20px;
+  background-color: #eee;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  height: 30px;
+  background-color: blueviolet;
+}
+
+footer p {
+  position: absolute;
+  margin: 0;
+  top: 5px;
+  left: 20px;
+  color: white;
+  background-color: burlywood;
+  padding: 0 10px 0px 10px; /*TRBL - Trouble */
+}
